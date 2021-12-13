@@ -1,0 +1,68 @@
+.Weather-App- {
+  /*margin: 10% 3% 2% 3%;*/
+  /* border: 2px solid #c3aed6;*/
+  padding-top: 30px;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.fa-city {
+  margin: 10% 4% 0% 120%;
+  font-size: 2.8vw;
+  color: #6e569e;
+}
+
+.submit-in-line {
+  display: inline;
+}
+
+#enter-city {
+  margin: 0% 0% 0% 20%;
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #8675a9;
+  border-radius: 3.5%;
+  font-size: 1.2vw;
+  color: #826ea8;
+}
+
+input[type="search"]:focus {
+  outline: 1px solid #c3aed6;
+  border-radius: 3.5%;
+  background: #e3d8ee;
+}
+
+#search-button {
+  margin: 0% 0% 0% 2%;
+  width: 20%;
+  padding: 8px 12px;
+  border: 1px solid #8675a9;
+  border-radius: 3.5%;
+  background: #c3aed6;
+  color: #826ea8;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+
+input[type="submit"]:focus {
+  outline: 1px solid #c3aed6;
+  background: #d4bceb;
+}
+
+#location-button {
+  font-size: 4vw;
+  margin: 0% 0% 0% 3%;
+  color: #6e569e;
+}
+
+#location-button:hover {
+  outline: none;
+  color: #e3d8ee;
+  cursor: pointer;
+}
+
+#location-button:focus {
+  outline: none;
+  color: #d4bceb;
+}

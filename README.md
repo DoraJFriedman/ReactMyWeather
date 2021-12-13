@@ -1,2 +1,2 @@
-# ReactMyWeather
+# ReactMe
 Created with CodeSandbox

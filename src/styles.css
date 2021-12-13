@@ -1,0 +1,83 @@
+.HeaderMainTitle {
+  font-size: 3.8vw;
+  text-align: center;
+  padding: 25px 10px 25px 10px;
+  font-family: "Lobster";
+  color: #1f65af;
+}
+
+.fas {
+  color: #826ea8;
+}
+
+.far {
+  color: #826ea8;
+}
+
+.smaller-numbers {
+  font-size: 1.2vw;
+}
+
+@media (max-width: 986px) {
+  .fa-city {
+    margin: 7px 0px 0px 30px;
+    font-size: 4.5vw;
+  }
+
+  #location-button {
+    font-size: 6vw;
+  }
+
+  #link-github {
+    /*text-align: center;*/
+
+    font-size: 2.2vw;
+  }
+}
+
+@media (max-width: 556px) {
+  #location-button {
+    font-size: 6vw;
+  }
+
+  .fa-city {
+    margin: 7px 0px 0px 30px;
+    font-size: 4.5vw;
+  }
+
+  #enter-city {
+    font-size: 1.8vw;
+  }
+
+  #search-button {
+    font-size: 1.6vw;
+  }
+
+  .city-per-continent-buttons {
+    font-size: 2vw;
+  }
+
+  #city-current-info {
+    margin: 10% 8 10% 0%;
+  }
+  #more-detailed-info {
+    margin: 10% 8 10% 8;
+  }
+  #more-detailed-info-center {
+    margin: 0px;
+  }
+  .detailed-info {
+    margin: 10% 8 10% 8;
+  }
+
+  .header-main-title {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  #link-github {
+    /*text-align: ceter;*/
+
+    font-size: 2.2vw;
+  }
+}

@@ -1,0 +1,21 @@
+.city-per-continent-buttons {
+  margin: 0% 0% 7% 25%;
+  font-size: 1.5vw;
+  padding: 5px 12px;
+  border: 1px solid #1f65af;
+  border-radius: 3.5%;
+  color: #1f65af;
+  background: rgba(224, 240, 253, 1.5);
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+
+.city-per-continent-buttons:hover {
+  outline: none;
+  background: rgba(224, 240, 253, 1.5);
+}
+
+.city-per-continent-buttons:focus {
+  outline: none;
+  background: rgba(224, 240, 253, 1.5);
+}

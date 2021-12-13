@@ -1,0 +1,88 @@
+#current-info {
+  margin: 0;
+  color: #1f65af;
+  background-image: linear-gradient(
+    rgb(230, 209, 249) 12.6%,
+    rgb(241, 229, 252) 29%,
+    rgb(220, 189, 248)
+  );
+}
+
+#city-current-info {
+  margin: 5% 7% 5% 7%;
+  border-radius: 20px;
+  text-align: center;
+  background-color: white;
+  color: #1f65af;
+}
+
+.city {
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: bold;
+  color: #132bef;
+  font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
+}
+
+.current-time-weather {
+  font-size: 20px;
+  margin-bottom: 0%;
+  color: #132bef;
+  font-family: "Oswald", sans-serif;
+  margin: 1%;
+}
+
+#description {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin: 1%;
+}
+
+#icon {
+  width: 50%;
+  margin: 1%;
+}
+
+#current-temperture {
+  font-size: 35px;
+  font-weight: bold;
+  color: #132bef;
+  margin: 0% 0% 8% 0%;
+  font-family: "Oswald", sans-serif;
+}
+
+#current-temperture .active {
+  color: #132bef;
+  text-decoration: none;
+}
+
+#celsius-farenheit-smaller-size {
+  position: relative;
+  font-size: 20px;
+  top: -20px;
+  color: #132bef;
+}
+
+#celsius {
+  color: #1f65af;
+  text-decoration: none;
+}
+
+#fahrenheit {
+  color: #1f65af;
+  text-decoration: none;
+}
+
+#more-detailed-info {
+  margin: 5% 7% 5% 7%;
+  font-size: 18px;
+  border-radius: 20px;
+  font-family: "Oswald", sans-serif;
+  background-color: white;
+  color: #1f65af;
+}
+
+#more-detailed-info-center {
+  margin: 5% 7% 5% 7%;
+}

@@ -6,7 +6,7 @@ import WeatherIcon from "./WeatherIcon.js";
 export default function SixDayForecast(props) {
   let [forecast, setForecast] = useState(null);
   let [loaded, setLoaded] = useState(false);
-  let apiKey = "1675ac15f7087dec05cc1d1621f9a694";
+  let apiKey = "";
 
   function convertDtToDays(dt) {
     let date = new Date(dt * 1000);

@@ -10,7 +10,7 @@ export default function SearchCity(props) {
   let [weather, setWeather] = useState({});
   let [loaded, setLoaded] = useState(false);
 
-  let apiKey = "1675ac15f7087dec05cc1d1621f9a694";
+  let apiKey = "";
 
   function convertDtToHours(dt) {
     let day = new Date(dt * 1000);
